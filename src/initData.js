@@ -1,18 +1,24 @@
 export const initData = [
     {
-      title: 'Virtual DOM',
-      description: 'Virtual DOM je koncept, který React používá pro efektivní manipulaci s DOM.',
+    title: 'Components',
+    description:
+    'The core UI building block - compose the user interface by combining multiple components.',
     },
     {
-      title: 'Komponenty',
-      description: 'Komponenty jsou základní stavební jednotkou React aplikace.',
+    title: 'JSX',
+    description:
+    'Return (potentially dynamic) HTML(ish) code to define the actual markup that will be rendered.',
     },
     {
-      title: 'Stav (State)',
-      description: 'Stav je datová struktura, která určuje chování a vzhled komponenty.',
+    title: 'Props',
+    description:
+    'Make components configurable (and therefore reusable) by passing input data to them.',
     },
     {
-      title: 'Props',
-      description: 'Props jsou vstupní parametry komponenty, které určují její chování a vzhled.',
+    title: 'State',
+    description:
+    'React-managed data which, when changed, causes the component to re-render & the UI to update.',
     },
-  ];
+    ];
+
+  
